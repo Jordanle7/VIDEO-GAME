@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+}
+
+#game-container {
+    position: relative;
+}
+
+#gameCanvas {
+    border: 1px solid #fff;
+    background-color: #1a1a1a;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    z-index: 10;
+}
